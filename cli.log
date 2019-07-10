@@ -1,0 +1,30 @@
+[2019-07-10T09:21:16.771] [INFO] cli - CLI args{"debug":"info"}
+[2019-07-10T09:21:16.775] [INFO] cli - Initializing
+[2019-07-10T09:21:36.948] [INFO] cli - CLI args{"debug":"info","vasya":"pupkin"}
+[2019-07-10T09:21:36.951] [INFO] cli - Initializing
+[2019-07-10T09:21:49.025] [INFO] cli - CLI args{"debug":"trace"}
+[2019-07-10T09:21:49.028] [INFO] cli - Initializing
+[2019-07-10T09:29:55.412] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T09:29:55.415] [INFO] cli - Initializing
+[2019-07-10T09:29:59.808] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
+[2019-07-10T09:37:58.326] [INFO] cli - CLI args are: {"debug":"info"}
+[2019-07-10T09:37:58.327] [INFO] cli - Initializing
+[2019-07-10T09:38:02.338] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
+[2019-07-10T09:40:57.149] [INFO] cli - CLI args are: {"debug":"info"}
+[2019-07-10T09:40:57.153] [INFO] cli - Initializing
+[2019-07-10T09:40:58.456] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
+[2019-07-10T09:42:29.741] [INFO] cli - CLI args are: {"debug":"info"}
+[2019-07-10T09:42:29.747] [INFO] cli - Initializing
+[2019-07-10T09:42:32.835] [INFO] cli - User selected: {"host":"neerc.ifmo.ru"}
+[2019-07-10T09:46:18.290] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T09:46:18.293] [INFO] cli - Initializing
+[2019-07-10T09:46:21.643] [INFO] cli - User selected: {"host":"neerc.ifmo.ru"}
+[2019-07-10T09:46:49.038] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T09:46:49.041] [INFO] cli - Initializing
+[2019-07-10T09:46:50.736] [INFO] cli - User selected: {"host":"neerc.ifmo.ru"}
+[2019-07-10T09:47:36.071] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T09:47:36.074] [INFO] cli - Initializing
+[2019-07-10T09:47:39.222] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
+[2019-07-10T09:48:35.131] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T09:48:35.134] [INFO] cli - Initializing
+[2019-07-10T09:48:36.756] [INFO] cli - User selected: "neerc.ifmo.ru"

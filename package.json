@@ -1,0 +1,23 @@
+{
+  "name": "pcms-cli",
+  "version": "0.0.1",
+  "description": "An application to submit solutions to PCMS2 web client",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"There are no tests yet\""
+  },
+  "keywords": [
+    "PCMS"
+  ],
+  "author": "baalaandaa",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "command-line-args": "^5.1.1",
+    "figlet": "^1.2.3",
+    "inquirer": "^6.4.1",
+    "inquirer-file-tree-selection-prompt": "^1.0.2",
+    "log4js": "^4.5.0",
+    "zombie": "^6.1.4"
+  }
+}

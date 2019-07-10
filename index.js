@@ -2,6 +2,7 @@ var inquirer = require('inquirer');
 var chalk = require('chalk');
 var figlet = require('figlet');
 const log4js = require('log4js');
+const Spinner = require('./spinner');
 
 const optionDefinitions = [
     { name: 'debug', alias: 'd', type: String}
@@ -46,23 +47,11 @@ var questions = [
     }
 ];
 
-var spinnerCount = 0;
+var sp = new Spinner(200, " Загружаем страницу, пожалуйста подождите");
 
 inquirer.prompt(questions).then(answers => {
     answers = answers.host;
     CLIlogger.info("User selected: " + JSON.stringify(answers, 4));
-    const spinner = [ '/', '-', '\\', '|'];
-    var spinnerTimeout = setInterval(() => {
-        spinnerCount++;
-        if(spinnerCount > 1){
-            process.stdout.clearLine();
-            process.stdout.cursorTo(0); 
-        }
-        process.stdout.write(chalk.bold.green(spinner[  (spinnerCount+1)% spinner.length ]) + " загружаю страницу, пожалуйста, подождите");
-    }, 200);
-    setTimeout(() => {
-        clearInterval(spinnerTimeout);
-        process.stdout.clearLine();
-        process.stdout.cursorTo(0); 
-    }, 2000);
+    sp.start();
+    setTimeout(() => {sp.stop()}, 20000);
 });

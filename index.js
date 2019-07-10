@@ -12,7 +12,7 @@ const commandLineArgs = require('command-line-args')
 const options = commandLineArgs(optionDefinitions);
 
 const defaults = [
-    {name: "debug", value: "info"}
+    {name: "debug", value: "error"}
 ]
 
 defaults.forEach((element) => {

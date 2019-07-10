@@ -1,68 +1,249 @@
-[2019-07-10T09:21:16.771] [INFO] cli - CLI args{"debug":"info"}
-[2019-07-10T09:21:16.775] [INFO] cli - Initializing
-[2019-07-10T09:21:36.948] [INFO] cli - CLI args{"debug":"info","vasya":"pupkin"}
-[2019-07-10T09:21:36.951] [INFO] cli - Initializing
-[2019-07-10T09:21:49.025] [INFO] cli - CLI args{"debug":"trace"}
-[2019-07-10T09:21:49.028] [INFO] cli - Initializing
-[2019-07-10T09:29:55.412] [INFO] cli - CLI args are: {"debug":"trace"}
-[2019-07-10T09:29:55.415] [INFO] cli - Initializing
-[2019-07-10T09:29:59.808] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
-[2019-07-10T09:37:58.326] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T09:37:58.327] [INFO] cli - Initializing
-[2019-07-10T09:38:02.338] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
-[2019-07-10T09:40:57.149] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T09:40:57.153] [INFO] cli - Initializing
-[2019-07-10T09:40:58.456] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
-[2019-07-10T09:42:29.741] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T09:42:29.747] [INFO] cli - Initializing
-[2019-07-10T09:42:32.835] [INFO] cli - User selected: {"host":"neerc.ifmo.ru"}
-[2019-07-10T09:46:18.290] [INFO] cli - CLI args are: {"debug":"trace"}
-[2019-07-10T09:46:18.293] [INFO] cli - Initializing
-[2019-07-10T09:46:21.643] [INFO] cli - User selected: {"host":"neerc.ifmo.ru"}
-[2019-07-10T09:46:49.038] [INFO] cli - CLI args are: {"debug":"trace"}
-[2019-07-10T09:46:49.041] [INFO] cli - Initializing
-[2019-07-10T09:46:50.736] [INFO] cli - User selected: {"host":"neerc.ifmo.ru"}
-[2019-07-10T09:47:36.071] [INFO] cli - CLI args are: {"debug":"trace"}
-[2019-07-10T09:47:36.074] [INFO] cli - Initializing
-[2019-07-10T09:47:39.222] [INFO] cli - User selected: {"host":"pcms.university.innopolis.ru"}
-[2019-07-10T09:48:35.131] [INFO] cli - CLI args are: {"debug":"trace"}
-[2019-07-10T09:48:35.134] [INFO] cli - Initializing
-[2019-07-10T09:48:36.756] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:05:51.223] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:05:51.227] [INFO] cli - Initializing
-[2019-07-10T10:05:52.302] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:18:57.051] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:18:57.055] [INFO] cli - Initializing
-[2019-07-10T10:18:58.780] [INFO] cli - User selected: "pcms.university.innopolis.ru"
-[2019-07-10T10:38:44.624] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:38:44.628] [INFO] cli - Initializing
-[2019-07-10T10:38:48.559] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:38:48.563] [INFO] cli - Initializing
-[2019-07-10T10:38:49.497] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:39:35.258] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:39:35.261] [INFO] cli - Initializing
-[2019-07-10T10:39:36.145] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:40:21.615] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:40:21.619] [INFO] cli - Initializing
-[2019-07-10T10:40:22.456] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:40:32.941] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:40:32.945] [INFO] cli - Initializing
-[2019-07-10T10:40:34.070] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:40:50.866] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:40:50.870] [INFO] cli - Initializing
-[2019-07-10T10:40:52.458] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:41:03.297] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:41:03.300] [INFO] cli - Initializing
-[2019-07-10T10:41:08.433] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:41:19.635] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:41:19.638] [INFO] cli - Initializing
-[2019-07-10T10:41:20.888] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:42:40.874] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:42:40.877] [INFO] cli - Initializing
-[2019-07-10T10:42:42.089] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:44:00.504] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:44:00.508] [INFO] cli - Initializing
-[2019-07-10T10:44:03.178] [INFO] cli - User selected: "neerc.ifmo.ru"
-[2019-07-10T10:45:32.070] [INFO] cli - CLI args are: {"debug":"info"}
-[2019-07-10T10:45:32.074] [INFO] cli - Initializing
-[2019-07-10T10:45:32.870] [INFO] cli - User selected: "pcms.university.innopolis.ru"
+[2019-07-10T17:00:13.149] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:00:13.150] [INFO] cli - Initializing
+[2019-07-10T17:00:13.160] [INFO] cli - Reading hosts from file
+[2019-07-10T17:00:16.611] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/
+[2019-07-10T17:00:16.611] [INFO] browser - puppeteer run
+[2019-07-10T17:00:17.821] [INFO] browser - Go to page
+[2019-07-10T17:00:18.753] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/
+[2019-07-10T17:00:18.753] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=37FD07F8F4F6884686816C94DB7BB147
+[2019-07-10T17:00:39.334] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:00:39.341] [INFO] cli - Initializing
+[2019-07-10T17:00:39.357] [INFO] cli - Reading hosts from file
+[2019-07-10T17:00:48.239] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:00:48.240] [INFO] cli - Initializing
+[2019-07-10T17:00:48.248] [INFO] cli - Reading hosts from file
+[2019-07-10T17:00:49.282] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:00:49.283] [INFO] browser - puppeteer run
+[2019-07-10T17:00:52.472] [INFO] browser - Go to page
+[2019-07-10T17:00:52.713] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:00:52.713] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=8723311C25EED947954D1258EAF44A40
+[2019-07-10T17:00:58.527] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:00:58.528] [INFO] cli - Initializing
+[2019-07-10T17:00:58.535] [INFO] cli - Reading hosts from file
+[2019-07-10T17:00:59.869] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:00:59.870] [INFO] browser - puppeteer run
+[2019-07-10T17:01:01.496] [INFO] browser - Go to page
+[2019-07-10T17:01:01.684] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:01:01.685] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=E4A493FE3B2FD9DC8CC3BD0CB747C70C
+[2019-07-10T17:02:02.991] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:02:02.994] [INFO] cli - Initializing
+[2019-07-10T17:02:03.011] [INFO] cli - Reading hosts from file
+[2019-07-10T17:02:05.523] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:02:05.523] [INFO] browser - puppeteer run
+[2019-07-10T17:02:07.334] [INFO] browser - Go to page
+[2019-07-10T17:02:10.470] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:02:10.471] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=6D1EE9A8816B8B2A656DCB3A730C7CEB
+[2019-07-10T17:03:13.964] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:03:13.965] [INFO] cli - Initializing
+[2019-07-10T17:03:13.977] [INFO] cli - Reading hosts from file
+[2019-07-10T17:03:15.831] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:03:15.832] [INFO] browser - puppeteer run
+[2019-07-10T17:03:17.478] [INFO] browser - Go to page
+[2019-07-10T17:03:20.751] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:03:20.751] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=7D0F2AC0B51EAC24EAE7A9E1826A0ED0
+[2019-07-10T17:03:36.883] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:03:36.886] [INFO] cli - Initializing
+[2019-07-10T17:03:36.898] [INFO] cli - Reading hosts from file
+[2019-07-10T17:03:37.699] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:03:37.700] [INFO] browser - puppeteer run
+[2019-07-10T17:03:39.259] [INFO] browser - Go to page
+[2019-07-10T17:03:42.527] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:03:42.527] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=846A2DA1196E3C155CB745C1B5AB9227
+[2019-07-10T17:04:28.391] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:04:28.393] [INFO] cli - Initializing
+[2019-07-10T17:04:28.408] [INFO] cli - Reading hosts from file
+[2019-07-10T17:04:29.752] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:04:29.753] [INFO] browser - puppeteer run
+[2019-07-10T17:04:31.476] [INFO] browser - Go to page
+[2019-07-10T17:04:37.852] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:04:37.853] [ERROR] browser - https://www.google.com/
+[2019-07-10T17:05:20.874] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:05:20.876] [INFO] cli - Initializing
+[2019-07-10T17:05:20.887] [INFO] cli - Reading hosts from file
+[2019-07-10T17:05:24.902] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:05:24.903] [INFO] browser - puppeteer run
+[2019-07-10T17:05:26.574] [INFO] browser - Go to page
+[2019-07-10T17:05:29.820] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:05:29.821] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=F01072BF7BF35B35DD141EA7D655FE72
+[2019-07-10T17:07:58.562] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:07:58.564] [INFO] cli - Initializing
+[2019-07-10T17:07:58.576] [INFO] cli - Reading hosts from file
+[2019-07-10T17:08:00.113] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:08:00.114] [INFO] browser - puppeteer run
+[2019-07-10T17:08:02.296] [INFO] browser - Go to page
+[2019-07-10T17:08:05.894] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:08:05.895] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=84BB918191D9BBA33514E28E5B088357
+[2019-07-10T17:09:02.441] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:09:02.442] [INFO] cli - Initializing
+[2019-07-10T17:09:02.452] [INFO] cli - Reading hosts from file
+[2019-07-10T17:09:04.210] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:09:04.210] [INFO] browser - puppeteer run
+[2019-07-10T17:09:05.955] [INFO] browser - Go to page
+[2019-07-10T17:09:09.529] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:09:09.530] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=FC4052B0D865013EC4D9ECD423EF64FF
+[2019-07-10T17:09:24.214] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:09:24.215] [INFO] cli - Initializing
+[2019-07-10T17:09:24.228] [INFO] cli - Reading hosts from file
+[2019-07-10T17:09:36.026] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:09:36.027] [INFO] cli - Initializing
+[2019-07-10T17:09:36.034] [INFO] cli - Reading hosts from file
+[2019-07-10T17:09:36.969] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:09:36.969] [INFO] browser - puppeteer run
+[2019-07-10T17:09:38.728] [INFO] browser - Go to page
+[2019-07-10T17:10:06.918] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:10:06.919] [INFO] cli - Initializing
+[2019-07-10T17:10:06.927] [INFO] cli - Reading hosts from file
+[2019-07-10T17:10:08.555] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:10:08.555] [INFO] browser - puppeteer run
+[2019-07-10T17:10:10.192] [INFO] browser - Go to page
+[2019-07-10T17:11:24.457] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:11:24.458] [INFO] cli - Initializing
+[2019-07-10T17:11:24.476] [INFO] cli - Reading hosts from file
+[2019-07-10T17:11:25.850] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:11:25.851] [INFO] browser - puppeteer run
+[2019-07-10T17:11:28.441] [INFO] browser - Go to page
+[2019-07-10T17:11:32.162] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:11:32.163] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=76F96CBDBB55A43C379668E31EDC69CF
+[2019-07-10T17:11:39.601] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:11:39.603] [INFO] cli - Initializing
+[2019-07-10T17:11:39.612] [INFO] cli - Reading hosts from file
+[2019-07-10T17:11:40.721] [INFO] cli - URL is: https://neerc.ifmo.ru/pcms2client/
+[2019-07-10T17:11:40.722] [INFO] browser - puppeteer run
+[2019-07-10T17:11:42.586] [INFO] browser - Go to page
+[2019-07-10T17:11:50.441] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/
+[2019-07-10T17:11:50.441] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/party/information.xhtml;jsessionid=00E071FC6187073B1AA46D5B772B9477
+[2019-07-10T17:12:00.105] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:12:00.107] [INFO] cli - Initializing
+[2019-07-10T17:12:00.125] [INFO] cli - Reading hosts from file
+[2019-07-10T17:12:04.778] [INFO] cli - URL is: https://neerc.ifmo.ru/pcms2client/
+[2019-07-10T17:12:04.778] [INFO] browser - puppeteer run
+[2019-07-10T17:12:06.436] [INFO] browser - Go to page
+[2019-07-10T17:12:14.190] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/
+[2019-07-10T17:12:14.190] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/party/information.xhtml;jsessionid=D0183BD5326F2B624FB99EABED623D98
+[2019-07-10T17:12:29.244] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:12:29.246] [INFO] cli - Initializing
+[2019-07-10T17:12:29.256] [INFO] cli - Reading hosts from file
+[2019-07-10T17:12:29.908] [INFO] cli - URL is: https://neerc.ifmo.ru/pcms2client/login.xhtml
+[2019-07-10T17:12:29.909] [INFO] browser - puppeteer run
+[2019-07-10T17:12:31.454] [INFO] browser - Go to page
+[2019-07-10T17:12:39.277] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/login.xhtml
+[2019-07-10T17:12:39.277] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/party/information.xhtml;jsessionid=AC942CC998C2F3E7463259C0038F300E
+[2019-07-10T17:14:39.544] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:14:39.545] [INFO] cli - Initializing
+[2019-07-10T17:14:39.555] [INFO] cli - Reading hosts from file
+[2019-07-10T17:14:41.824] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:14:41.825] [INFO] browser - puppeteer run
+[2019-07-10T17:14:44.324] [INFO] browser - Go to page
+[2019-07-10T17:14:47.921] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:14:47.921] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/logout.xhtml;jsessionid=15F2B73C6D5585266EE50E3851F8AAB2
+[2019-07-10T17:16:30.563] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:16:30.564] [INFO] cli - Initializing
+[2019-07-10T17:16:30.574] [INFO] cli - Reading hosts from file
+[2019-07-10T17:16:32.712] [INFO] cli - URL is: https://neerc.ifmo.ru/pcms2client/login.xhtml
+[2019-07-10T17:16:32.712] [INFO] browser - puppeteer run
+[2019-07-10T17:16:34.809] [INFO] browser - Go to page
+[2019-07-10T17:16:42.963] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/login.xhtml
+[2019-07-10T17:16:42.964] [ERROR] browser - https://neerc.ifmo.ru/pcms2client/party/information.xhtml;jsessionid=3502E42857B013499B4E12A5E4A10FA6
+[2019-07-10T17:17:25.835] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:17:25.837] [INFO] cli - Initializing
+[2019-07-10T17:17:25.850] [INFO] cli - Reading hosts from file
+[2019-07-10T17:17:40.348] [INFO] cli - URL is: https://pcms.university.innopolis.ru/
+[2019-07-10T17:17:40.349] [INFO] browser - puppeteer run
+[2019-07-10T17:17:42.561] [INFO] browser - Go to page
+[2019-07-10T17:17:46.201] [ERROR] browser - https://pcms.university.innopolis.ru/
+[2019-07-10T17:17:46.201] [ERROR] browser - https://pcms.university.innopolis.ru/
+[2019-07-10T17:18:17.021] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:18:17.022] [INFO] cli - Initializing
+[2019-07-10T17:18:17.033] [INFO] cli - Reading hosts from file
+[2019-07-10T17:18:32.556] [INFO] cli - URL is: https://pcms.university.innopolis.ru/
+[2019-07-10T17:18:32.557] [INFO] browser - puppeteer run
+[2019-07-10T17:18:34.322] [INFO] browser - Go to page
+[2019-07-10T17:18:37.880] [ERROR] browser - https://pcms.university.innopolis.ru/
+[2019-07-10T17:18:37.882] [ERROR] browser - https://pcms.university.innopolis.ru/
+[2019-07-10T17:19:09.963] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:19:09.964] [INFO] cli - Initializing
+[2019-07-10T17:19:09.977] [INFO] cli - Reading hosts from file
+[2019-07-10T17:19:12.374] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:19:12.375] [INFO] browser - puppeteer run
+[2019-07-10T17:19:14.549] [INFO] browser - Go to page
+[2019-07-10T17:19:17.865] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:19:17.865] [ERROR] browser - https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:20:11.040] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:20:11.041] [INFO] cli - Initializing
+[2019-07-10T17:20:11.051] [INFO] cli - Reading hosts from file
+[2019-07-10T17:20:12.956] [INFO] cli - URL is: https://neerc.ifmo.ru/pcms2client/login.xhtml
+[2019-07-10T17:20:12.957] [INFO] browser - puppeteer run
+[2019-07-10T17:20:13.490] [INFO] browser - Go to page
+[2019-07-10T17:28:15.139] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:28:15.140] [INFO] cli - Initializing
+[2019-07-10T17:28:15.151] [INFO] cli - Reading hosts from file
+[2019-07-10T17:28:20.190] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:28:20.190] [INFO] browser - puppeteer run
+[2019-07-10T17:28:23.037] [INFO] browser - Go to page
+[2019-07-10T17:28:42.871] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:28:42.873] [INFO] cli - Initializing
+[2019-07-10T17:28:42.896] [INFO] cli - Reading hosts from file
+[2019-07-10T17:28:45.310] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:28:45.311] [INFO] browser - puppeteer run
+[2019-07-10T17:28:47.267] [INFO] browser - Go to page
+[2019-07-10T17:43:27.297] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:43:27.299] [INFO] cli - Initializing
+[2019-07-10T17:43:27.310] [INFO] cli - Reading hosts from file
+[2019-07-10T17:43:37.896] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:43:37.898] [INFO] browser - puppeteer run
+[2019-07-10T17:43:40.750] [INFO] browser - Go to page
+[2019-07-10T17:44:01.286] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:44:01.287] [INFO] cli - Initializing
+[2019-07-10T17:44:01.297] [INFO] cli - Reading hosts from file
+[2019-07-10T17:44:04.122] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:44:04.122] [INFO] browser - puppeteer run
+[2019-07-10T17:44:05.639] [INFO] browser - Go to page
+[2019-07-10T17:44:29.506] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:44:29.507] [INFO] cli - Initializing
+[2019-07-10T17:44:29.514] [INFO] cli - Reading hosts from file
+[2019-07-10T17:44:33.490] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:44:33.491] [INFO] browser - puppeteer run
+[2019-07-10T17:44:34.923] [INFO] browser - Go to page
+[2019-07-10T17:45:22.245] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:45:22.248] [INFO] cli - Initializing
+[2019-07-10T17:45:22.269] [INFO] cli - Reading hosts from file
+[2019-07-10T17:45:23.718] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:45:23.719] [INFO] browser - puppeteer run
+[2019-07-10T17:45:25.448] [INFO] browser - Go to page
+[2019-07-10T17:47:21.199] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:47:21.200] [INFO] cli - Initializing
+[2019-07-10T17:47:21.210] [INFO] cli - Reading hosts from file
+[2019-07-10T17:47:24.064] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:47:24.065] [INFO] browser - puppeteer run
+[2019-07-10T17:47:25.731] [INFO] browser - Go to page
+[2019-07-10T17:48:12.942] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:48:12.944] [INFO] cli - Initializing
+[2019-07-10T17:48:12.956] [INFO] cli - Reading hosts from file
+[2019-07-10T17:48:17.153] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:48:17.154] [INFO] browser - puppeteer run
+[2019-07-10T17:48:18.939] [INFO] browser - Go to page
+[2019-07-10T17:48:39.076] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:48:39.077] [INFO] cli - Initializing
+[2019-07-10T17:48:39.087] [INFO] cli - Reading hosts from file
+[2019-07-10T17:48:41.130] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:48:41.131] [INFO] browser - puppeteer run
+[2019-07-10T17:48:42.944] [INFO] browser - Go to page
+[2019-07-10T17:53:50.928] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:53:50.929] [INFO] cli - Initializing
+[2019-07-10T17:53:50.940] [INFO] cli - Reading hosts from file
+[2019-07-10T17:53:54.255] [INFO] cli - URL is: https://pcms.university.innopolis.ru/pcms2client/login.xhtml
+[2019-07-10T17:53:54.257] [INFO] browser - puppeteer run
+[2019-07-10T17:53:56.758] [INFO] browser - Go to page
+[2019-07-10T17:54:29.638] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:54:29.639] [INFO] cli - Initializing
+[2019-07-10T17:54:29.650] [INFO] cli - Reading hosts from file
+[2019-07-10T17:54:31.279] [INFO] browser - puppeteer run
+[2019-07-10T17:54:33.355] [INFO] browser - Go to page
+[2019-07-10T17:54:57.025] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:54:57.031] [INFO] cli - Initializing
+[2019-07-10T17:54:57.056] [INFO] cli - Reading hosts from file
+[2019-07-10T17:55:09.013] [INFO] cli - CLI args are: {"debug":"trace"}
+[2019-07-10T17:55:09.014] [INFO] cli - Initializing
+[2019-07-10T17:55:09.028] [INFO] cli - Reading hosts from file
+[2019-07-10T17:55:10.111] [INFO] browser - puppeteer run
+[2019-07-10T17:55:10.592] [INFO] browser - Go to page

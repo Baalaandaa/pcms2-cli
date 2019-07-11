@@ -47,13 +47,21 @@ var init = async (CLIlogger, Browserlogger, headless) => {
     var client = new pcms(url, Browserlogger, headless);
     await client.init();
     sp.stop();
+    var data = {};
     while(!logined){
-        var data = await inquirer.prompt(loginq);
+        data = await inquirer.prompt(loginq);
         logined = await client.login(data.name, data.password);
         if(!logined){
             console.log(chalk.red.bold("Invalid login/password"));
         }
     }
+    await fs.writeFile(".settings.json", JSON.stringify({
+        hostUrl: url,
+        login: data.name,
+        password: data.password,
+        contest: null
+    }, 4), (error) => {if(error) console.error(error)});
+
     console.log(chalk.bold.italic.green("You sucsessfully logined. \nAvailable commands: "));
     console.log(chalk.bold.grey("`pcms contest` - Opens menu with contest"));
     await client.stop();

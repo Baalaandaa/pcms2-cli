@@ -33,7 +33,7 @@ const level = options.debug;
 
 log4js.configure({
     appenders: { 
-        cli: { type: 'file', filename: 'cli.log' },
+        cli: { type: 'file', filename: require('os').homedir() + "/.pcms/cli.log" },
         out: { type: 'stdout' }
     },
     categories: { 
@@ -43,8 +43,6 @@ log4js.configure({
 const CLIlogger = log4js.getLogger('cli');
 const Browserlogger = log4js.getLogger('browser');
 CLIlogger.info("CLI args are: " + JSON.stringify(options, 4));
-
-
 
 if(options.screen == "init"){
     initScreen(CLIlogger, Browserlogger, options.headless).then(() => CLIlogger.info("Initialized"));

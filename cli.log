@@ -139,3 +139,9 @@
 [2019-07-11T10:14:28.114] [INFO] browser - puppeteer run
 [2019-07-11T10:14:29.148] [INFO] browser - Go to page
 [2019-07-11T10:14:37.384] [INFO] cli - Initialized
+[2019-07-11T10:23:07.779] [INFO] cli - CLI args are: {"debug":"info","screen":"init","headless":true}
+[2019-07-11T10:23:07.781] [INFO] cli - Initializing
+[2019-07-11T10:23:07.796] [INFO] cli - Reading hosts from file
+[2019-07-11T10:23:38.914] [INFO] browser - puppeteer run
+[2019-07-11T10:23:40.106] [INFO] browser - Go to page
+[2019-07-11T10:23:46.057] [INFO] cli - Initialized

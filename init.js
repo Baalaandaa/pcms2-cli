@@ -10,7 +10,7 @@ var init = async (CLIlogger, Browserlogger, headless) => {
     CLIlogger.info("Initializing");
     console.log(chalk.blue.bold(figlet.textSync("PCMS2 CLI")));
     CLIlogger.info("Reading hosts from file");
-    var hosts = JSON.parse(fs.readFileSync("hosts.json"));
+    var hosts = JSON.parse(fs.readFileSync(require('os').homedir() + "/.pcms/hosts.json"));
     var titles = [];
     hosts.forEach((e) => {
         titles.push(e.title);
@@ -55,7 +55,7 @@ var init = async (CLIlogger, Browserlogger, headless) => {
             console.log(chalk.red.bold("Invalid login/password"));
         }
     }
-    await fs.writeFile(".settings.json", JSON.stringify({
+    await fs.writeFile(fs.readFileSync(require('os').homedir() + "/.pcms/settings.json"), JSON.stringify({
         hostUrl: url,
         login: data.name,
         password: data.password,

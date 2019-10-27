@@ -44,6 +44,7 @@ var contests = async (CLIlogger, Browserlogger, headless) => {
     ];
     var ans = (await inquirer.prompt(questions)).contest;
     var res = await client.selectContest(ans);
+    CLIlogger.info(res);
     if(!res){
         console.log(chalk.bold.italic.red("Что-то пошло не так. Попробуйте еще раз"));
     } else console.log(chalk.bold.italic.green("Контест выбран успешно"));

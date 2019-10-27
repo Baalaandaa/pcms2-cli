@@ -1,5 +1,8 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
+var Table = require('cli-table');
+const chalk = require('chalk');
+
 
 class PCMS{
 
@@ -76,18 +79,64 @@ class PCMS{
     async selectContest(name) {
         var lnk = "";
         this.contests.forEach(e => {
-            console.log(e.title, name);
             if(e.title == name){
                 lnk = e.link;
             }
         });
-        console.log(lnk)
         if(lnk == "") return false;
         await this.page.goto(lnk);
+        await this.page.goto("https://neerc.ifmo.ru/pcms2client/party/information.xhtml");
         var settings = JSON.parse(fs.readFileSync(require('os').homedir() + "/.pcms/.settings.json"));
         settings.contest = name;
         await fs.writeFile(require('os').homedir() + "/.pcms/.settings.json", JSON.stringify(settings, 4), (error) => {if(error) console.error(error)});
         return true;
+    }
+
+    async contestInfo(name){
+        await this.selectContest(name);
+        var res = await this.page.evaluate(`document.querySelector("#running-clock").innerHTML`);
+        return res;
+    }
+
+    async table(){
+        await this.page.goto("https://neerc.ifmo.ru/pcms2client/party/monitor.xhtml");
+        var taskSize = await this.page.evaluate(`document.querySelector("table.standings>thead>tr").childNodes.length`) - 4;
+        var contestantsLength = await this.page.evaluate(`document.querySelector("table.standings>tbody").childNodes.length`);
+        var header = [
+            "#",
+            "Название"
+        ];
+        for(var i = 0; i < taskSize; i++){
+            header.push(String.fromCharCode('A'.charCodeAt(0) + i));
+        }
+        header.push('=');
+        header.push("Штраф");
+        var table = new Table({
+            head: header
+        });
+        for(var id = 0; id < contestantsLength; id++){
+            var rank = await this.page.evaluate(`document.querySelector("table.standings>tbody").childNodes[${id}].childNodes[0].innerHTML`);
+            var name = await this.page.evaluate(`document.querySelector("table.standings>tbody").childNodes[${id}].childNodes[1].innerHTML`);
+            var me = (await this.page.evaluate(`document.querySelector("table.standings>tbody").childNodes[${id}].className`)) == "current";
+            var row = [];
+            if(me){
+                row = [chalk.bold.green(rank), chalk.bold.green(name)];
+            } else if(id % 2){
+                row = [chalk.gray(rank), chalk.gray(name)];
+            } else row = [chalk.blue(rank), chalk.blue(name)];
+            for(var i = 0; i < taskSize + 2; i++){
+                var status = await this.page.evaluate(`document.querySelector("table.standings>tbody").childNodes[${id}].childNodes[${i + 2}].innerHTML`);
+                var classname = await this.page.evaluate(`document.querySelector("table.standings>tbody").childNodes[${id}].childNodes[${i + 2}].className`);
+                if(classname.indexOf('first') != -1) status = chalk.bold.green(status);
+                if(classname.indexOf('ok') == -1) status = chalk.bold.red(status);
+                if(status.indexOf('<') != -1){
+                    status = status.substr(0, status.indexOf('<'));
+                }
+                row.push(status);
+            }
+            table.push(row);
+        }
+        return table.toString();
     }
 
 }

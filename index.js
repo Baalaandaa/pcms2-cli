@@ -7,6 +7,7 @@ const Spinner = require('./spinner.js');
 const pcms = require('./pcms.js');
 
 const initScreen = require('./init.js');
+const contestsScreen = require('./contests.js');
 
 const optionDefinitions = [
     { name: 'debug', alias: 'd', type: String},
@@ -46,4 +47,8 @@ CLIlogger.info("CLI args are: " + JSON.stringify(options, 4));
 
 if(options.screen == "init"){
     initScreen(CLIlogger, Browserlogger, options.headless).then(() => CLIlogger.info("Initialized"));
+} else if(options.screen == "contest"){
+    contestsScreen(CLIlogger, Browserlogger, options.headless).then(() => CLIlogger.info("Initialized"));
+} else if(options.screen == "info"){
+// 
 }

@@ -57,12 +57,13 @@ var init = async (CLIlogger, Browserlogger, headless) => {
     }
     await fs.writeFile(fs.readFileSync(require('os').homedir() + "/.pcms/.settings.json"), JSON.stringify({
         hostUrl: url,
+        host: answers,
         login: data.name,
         password: data.password,
         contest: null
     }, 4), (error) => {if(error) console.error(error)});
 
-    console.log(chalk.bold.italic.green("You sucsessfully logined. \nAvailable commands: "));
+    console.log(chalk.bold.italic.green("You successfully logined. \nAvailable commands: "));
     console.log(chalk.bold.grey("`pcms contest` - Opens menu with contest"));
     await client.stop();
 }

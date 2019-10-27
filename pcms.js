@@ -84,6 +84,9 @@ class PCMS{
         });
         if(lnk == "") return false;
         await this.page.goto(lnk);
+        var settings = JSON.parse(fs.readFileSync(require('os').homedir() + "/.pcms/settings.json"));
+        settings.contest = name;
+        await fs.writeFile(fs.readFileSync(require('os').homedir() + "/.pcms/.settings.json"), JSON.stringify(settings, 4), (error) => {if(error) console.error(error)});
         return true;
     }
 

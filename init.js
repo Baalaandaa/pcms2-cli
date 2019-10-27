@@ -61,7 +61,7 @@ var init = async (CLIlogger, Browserlogger, headless) => {
         login: data.name,
         password: data.password,
         contest: null
-    }, 4), (error) => {if(error) console.error(error)});
+    }, 4), (e) => {console.error(e)});
 
     console.log(chalk.bold.italic.green("You successfully logined. \nAvailable commands: "));
     console.log(chalk.bold.grey("`pcms contest` - Opens menu with contest"));

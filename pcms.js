@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const fs = require('fs');
 
 class PCMS{
 
@@ -41,7 +42,7 @@ class PCMS{
             this.logger.error("Browser is not started yet. Call init() first");
         }
         var curUrl = this.page.url().toString();
-        await this.page.click("a[title=Contests]");
+        await this.page.click('a[title="Contests"], a[title="Соревнования"]');
         curUrl = this.page.url().toString();
         if(!curUrl.includes("party/contests.xhtml")){
             console.error("Something happened. :/");
@@ -64,9 +65,9 @@ class PCMS{
                 var end = e.html.indexOf("\"", index + 8);
                 link = e.html.substr(index + 7, end - index - 7);
             } else{
-                link = this.url + "/pcms2client/party/contests.xhtml";
+                link = "pcms2client/party/contests.xhtml";
             }
-            contests.push({link: this.url + link, title: e.text});
+            contests.push({link: this.url + '/' + link, title: e.text});
         })
         this.contests = contests;
         return contests;
@@ -75,18 +76,17 @@ class PCMS{
     async selectContest(name) {
         var lnk = "";
         this.contests.forEach(e => {
+            console.log(e.title, name);
             if(e.title == name){
-                if(link.length){
-                    lnk = this.page.goto(e.link);
-                    break;
-                }
+                lnk = e.link;
             }
         });
+        console.log(lnk)
         if(lnk == "") return false;
         await this.page.goto(lnk);
-        var settings = JSON.parse(fs.readFileSync(require('os').homedir() + "/.pcms/settings.json"));
+        var settings = JSON.parse(fs.readFileSync(require('os').homedir() + "/.pcms/.settings.json"));
         settings.contest = name;
-        await fs.writeFile(fs.readFileSync(require('os').homedir() + "/.pcms/.settings.json"), JSON.stringify(settings, 4), (error) => {if(error) console.error(error)});
+        await fs.writeFile(require('os').homedir() + "/.pcms/.settings.json", JSON.stringify(settings, 4), (error) => {if(error) console.error(error)});
         return true;
     }
 

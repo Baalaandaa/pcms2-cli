@@ -55,7 +55,7 @@ var init = async (CLIlogger, Browserlogger, headless) => {
             console.log(chalk.red.bold("Invalid login/password"));
         }
     }
-    await fs.writeFile(fs.readFileSync(require('os').homedir() + "/.pcms/.settings.json"), JSON.stringify({
+    await fs.writeFile(require('os').homedir() + "/.pcms/.settings.json", JSON.stringify({
         hostUrl: url,
         host: answers,
         login: data.name,
